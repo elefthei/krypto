@@ -1,10 +1,10 @@
-defmodule ExCrypto.Mixfile do
+defmodule Krypto.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :ex_crypto,
-     version: "0.0.1",
-     escript: [main_module: ExKeypair],
+    [app: :krypto,
+     version: "0.1.1",
+     escript: [main_module: Krypto],
      elixir: "~> 1.2",
      package: package(),
      description: description(),
@@ -31,11 +31,11 @@ defmodule ExCrypto.Mixfile do
 
   defp package do
     [# These are the default files included in the package
-     name: :ex_crypto,
+     name: :krypto,
      files: ["lib", "test", "config", "mix.exs", "README*", "LICENSE*" ],
      maintainers: ["Lef Ioannidis"],
      licenses: ["MIT"],
-     links: %{"GitHub" => "https://github.com/elefthei/ex_crypto",
-              "Docs" => "https://github.com/elefthei/ex_crypto"}]
+     links: %{"GitHub" => "https://github.com/elefthei/krypto",
+              "Docs" => "https://github.com/elefthei/krypto"}]
   end
 end
