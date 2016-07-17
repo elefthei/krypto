@@ -2,8 +2,8 @@ defmodule ExCrypto.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :ex_keypair,
-     version: "0.0.3",
+    [app: :ex_crypto,
+     version: "0.0.1",
      escript: [main_module: ExKeypair],
      elixir: "~> 1.2",
      package: package(),
