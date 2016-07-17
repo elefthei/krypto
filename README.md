@@ -1,6 +1,6 @@
 # Krypto
 
-**Crypto library in Elixir, using OpenSSL ports**
+**Crypto library in Elixir, using Erlang public_key and OpenSSL ports**
 
 ## Installation
 
