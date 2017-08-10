@@ -5,7 +5,7 @@ defmodule Krypto.Mixfile do
     [app: :krypto,
      version: "0.1.1",
      escript: [main_module: Krypto],
-     elixir: "~> 1.2",
+     elixir: "~> 1.5",
      package: package(),
      description: description(),
      deps: deps]
