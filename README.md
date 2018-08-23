@@ -7,20 +7,20 @@
 The package can be installed as:
 
   1. Add krypto to your list of dependencies in `mix.exs`:
-
-        def deps do
-          [{:krypto, "~> 0.1.4"}]
-        end
-
+  ```
+  def deps do
+      [{:krypto, "~> 0.1.4"}]
+  end
+  ```
   2. Ensure krypto is started before your application:
-
-        def application do
-          [applications: [:krypto]]
-        end
-
+  ```
+  def application do
+      [applications: [:krypto]]
+  end
+  ```
 ## Overview
 
-Krypto is a light-weight crypto implementation for Elixir build with simplicity, speed and security in mind.
+Krypto is an opinionated, light-weight crypto implementation for Elixir with native OpenSSL bindings.
 
 ## Example
 
